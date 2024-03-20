@@ -1,5 +1,5 @@
 @extends('web.master')
 
 @section('main-content')
-   ============ Blog Page =============
+   ============ Blog View Page =============
 @endsection
