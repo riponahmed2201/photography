@@ -16,14 +16,14 @@
                 <div class="author-info text p-3 p-md-5">
                     <div class="desc">
                         <span class="subheading">Hello! I'm</span>
-                        <h1 class="big-letter">Louie Smith</h1>
-                        <h1 class="mb-4"><span>Louie Smith</span> A Photographer. <span>I Capture Life</span>
+                        <h1 class="big-letter">Imran Sami</h1>
+                        <h1 class="mb-4"><span>Imran Sami</span> A Photographer. <span>I Capture Life</span>
                         </h1>
                         <p class="mb-4">I am A Photographer from America Far far away, behind the word
                             mountains, far from the countries Vokalia and Consonantia, there live the blind
                             texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
                             large language ocean.</p>
-                        <h3 class="signature h1">Louie Smith</h3>
+                        <h3 class="signature h1">Imran Sami</h3>
                         <ul class="ftco-social mt-3">
                             <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a>
                             </li>

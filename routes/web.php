@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Web\BlogController;
+use App\Http\Controllers\Web\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('web.home');
 });
+
+Route::get('blog', [BlogController::class, 'index'])->name('web.blog');
+Route::get('blog-details', [BlogController::class, 'blogDetails'])->name('web.blogDetails');
+
+//Web Routes
+Route::get('contact', [HomeController::class, 'contact'])->name('web.contact');
+Route::get('about-me', [HomeController::class, 'aboutMe'])->name('web.aboutMe');
+Route::get('gallery', [HomeController::class, 'gallery'])->name('web.gallery');
+Route::get('travelling', [HomeController::class, 'travelling'])->name('web.travelling');
+Route::get('legal-profession', [HomeController::class, 'legalProfession'])->name('web.legalProfession');
